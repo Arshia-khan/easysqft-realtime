@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: easysqft-realtime
+    env: node
+    buildCommand: "npm install"
+    startCommand: "npm start"
